@@ -1,0 +1,14 @@
+.App-body {
+  background-color:rgb(0, 53, 78);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+h3{
+  margin: 20px;
+  color:cyan;
+  font-size: 24px;
+  font-weight: normal;
+}
