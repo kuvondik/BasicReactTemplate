@@ -66,7 +66,7 @@ module.exports = {
         use: {
           loader: 'file-loader',
           options: {
-            publicPath: '/images',
+            publicPath: './images',
             outputPath: 'images',
             name: '[name].[hash:8].[ext]',
           },
@@ -81,7 +81,15 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: paths.static,
+          from: paths.public,
+          filter: resourcePath => {
+            var filename = resourcePath.replace(/^.*[\\\/]/, '');
+            
+            if (filename === "index.html")
+              return false;
+
+            return true;
+          },
         },
       ],
     }),

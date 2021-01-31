@@ -88,7 +88,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm check-eslint-config && npm lint-code && npm check-stylelint-config && npm lint-style"
+      "pre-push": "npm run check-eslint-config && npm run lint-code && npm run check-stylelint-config && npm run lint-style"
     }
   },
   "lint-staged": {
