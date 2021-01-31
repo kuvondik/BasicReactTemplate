@@ -1,9 +1,26 @@
 .container {
   display: flex;
   margin: 20px;
-  /* border: 2px dotted black; */
-  border-radius: 0.5rem;
-  background-color: gray;
-  width: 600px;
-  height: 400px;
+  justify-content: center;
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: calc(13%);
+  width: auto;
+  height: 600px;
+}
+.screen {
+  overflow: hidden;
+  position: absolute;
+  top: 105px;
+  left: 154px;
+  width: 400px;
+  height: 370px;
+  border-radius: 2.1rem;
+  background-color: rgb(102, 51, 153);
 }

@@ -1,5 +1,5 @@
 .App-body {
-  background-color: rgb(0, 53, 78);
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
 
 h3 {
   margin: 20px;
-  color: cyan;
+  color: darkcyan;
   font-size: 24px;
   font-weight: normal;
 }

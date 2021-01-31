@@ -6,9 +6,9 @@
 
 .header-container {
   padding: 10px;
-  /* background-color: rgb(0, 53, 78); */
-  background-image: linear-gradient(rgb(0, 53, 78), rgb(0, 99, 145));
-  border-bottom: 1px solid rgb(0, 53, 78);
+  background-color: white;
+  /* background-image: linear-gradient(rgb(0, 53, 78), rgb(0, 99, 145)); */
+  border-bottom: 1px solid lightgray;
 }
 
 .header-wrapper {
@@ -26,7 +26,6 @@
 
 .logo-link {
   text-decoration: none;
-  color: white;
   width: 100%;
   display: flex;
   align-items: center;
@@ -83,13 +82,13 @@
   transition-duration: 0.25s;
   transition-timing-function: ease-in-out;
 
-  color: white;
+  color: darkcyan;
   text-decoration: none;
   padding: 8px 20px 10px;
   border-radius: 0.25rem;
 }
 
 .nav-link:hover {
-  color: rgb(0, 53, 78);
-  background-color: white;
+  color: black;
+  background-color: lightgray;
 }
