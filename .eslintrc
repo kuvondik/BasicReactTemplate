@@ -1,0 +1,28 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:react/recommended"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    // suppress errors for missing 'import React' in files
+    "react/react-in-jsx-scope": "off",
+    "no-console": [
+      "warn",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ]
+  }
+}

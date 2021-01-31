@@ -1,0 +1,7 @@
+  
+**/*{.,-}min.js
+**/build/*
+**/webpack/*
+**/public/*
+**/node_modules/* 
+webpack.config.js
