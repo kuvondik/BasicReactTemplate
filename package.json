@@ -69,8 +69,8 @@
     "build": "webpack --mode=production --progress --display-error-details",
     "check-eslint-config": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "check-stylelint-config": "stylelint-config-prettier-check",
-    "lint-code": "eslint 'src/scripts/**/*.js'",
-    "lint-style": "stylelint 'src/stylesheets/**/*.{css,scss}'",
+    "lint-code": "eslint src/**/*.js",
+    "lint-style": "stylelint src/**/*.{css,scss}",
     "analyze": "webpack-bundle-analyzer ./stats.json"
   },
   "browserslist": {

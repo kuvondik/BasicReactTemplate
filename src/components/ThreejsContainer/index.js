@@ -1,11 +1,7 @@
-import './style.css'
+import './style.css';
 
 const ThreejsContainer = () => {
-    return (
-        <div className="container">
-            
-        </div>
-    )
-}
+  return <div className="container"></div>;
+};
 
-export default ThreejsContainer
+export default ThreejsContainer;
